@@ -26,12 +26,12 @@ console.log('----------');
 //third task
 
 const mas1 = [2, 3, 5, 8];
-let result1 = 1;
+let resultMult = 1;
 
 for (let i = 0; i < mas1.length; i++) {
-  result1 *= mas1[i];
+  resultMult *= mas1[i];
 }
-console.log(result1);
+console.log(resultMult);
 console.log('----------');
 
 //fourth task
@@ -39,10 +39,10 @@ console.log('----------');
 const mas2 = [2, 5, 8, 15, 0, 6, 20, 3];
 
 for (let i = 0; i < mas2.length; i++) {
-  let a = ' ';
-  a = mas2[i];
-  if (a > 5 && a < 10) {
-    console.log(a);
+  let num = ' ';
+  num = mas2[i];
+  if (num > 5 && num < 10) {
+    console.log(num);
   }
 }
 console.log('----------');
@@ -52,10 +52,10 @@ console.log('----------');
 const mas3 = [2, 5, 8, 15, 0, 6, 20, 3];
 
 for (let i = 0; i < mas3.length; i++) {
-  let b = ' ';
-  b = mas3[i];
-  if (b % 2 === 0 && b !== 0) {
-    console.log(b);
+  let numEven = ' ';
+  numEven = mas3[i];
+  if (numEven % 2 === 0 && numEven !== 0) {
+    console.log(numEven);
   }
 }
 console.log('----------');
