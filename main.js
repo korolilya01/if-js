@@ -14,12 +14,13 @@ console.log('----------');
 
 let test = 1;
 test++; //added 1 to variable test, result = 2
+test += '1'; // number(test) is converting to string(test) and will be '21'
 console.log(test);
 
 test--; //minus 1 from test, result = 1
 console.log(test);
 
-test = true; // typeof test is boolean
+test = !!test; // typeof test is boolean
 console.log(test);
 console.log('----------');
 
@@ -37,27 +38,29 @@ console.log('----------');
 //fourth task
 
 const mas2 = [2, 5, 8, 15, 0, 6, 20, 3];
+let num = ' ';
 
 for (let i = 0; i < mas2.length; i++) {
-  let num = ' ';
-  num = mas2[i];
-  if (num > 5 && num < 10) {
-    console.log(num);
+  if (mas2[i] > 5 && mas2[i] < 10) {
+    num += mas2[i];
+    num += ' ';
   }
 }
+console.log(num);
 console.log('----------');
 
 //fifth task
 
 const mas3 = [2, 5, 8, 15, 0, 6, 20, 3];
+let numEven = ' ';
 
 for (let i = 0; i < mas3.length; i++) {
-  let numEven = ' ';
-  numEven = mas3[i];
-  if (numEven % 2 === 0 && numEven !== 0) {
-    console.log(numEven);
+  if (mas3[i] % 2 === 0 && mas3[i] !== 0) {
+    numEven += mas3[i];
+    numEven += ' ';
   }
 }
+console.log(numEven);
 console.log('----------');
 
 // new task 1
