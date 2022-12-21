@@ -75,7 +75,7 @@ console.log(palindrom('утка')); //false
 console.log(palindrom('1234321')); //true
 console.log(palindrom('level')); //true
 
-// task new 2
+// new task 2
 const min = function (a, b) {
   return a < b ? a : b; //return min value if true
 };
