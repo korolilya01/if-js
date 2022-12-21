@@ -63,7 +63,6 @@ for (let i = 0; i < mas3.length; i++) {
 console.log(numEven);
 console.log('----------');
 
-
 // new task 1
 const palindrom = function (word) {
   for (let i = 0; i < word.length; i++) {
@@ -108,3 +107,4 @@ function changeZero() {
 
 console.log(changeZero());
 console.log(arr);
+
