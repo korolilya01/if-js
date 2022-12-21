@@ -105,5 +105,6 @@ function changeZero() {
     }
   }
 }
+
 console.log(changeZero());
 console.log(arr);
