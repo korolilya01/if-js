@@ -63,6 +63,7 @@ for (let i = 0; i < mas3.length; i++) {
 console.log(numEven);
 console.log('----------');
 
+
 // new task 1
 const palindrom = function (word) {
   for (let i = 0; i < word.length; i++) {
@@ -74,7 +75,7 @@ console.log(palindrom('утка')); //false
 console.log(palindrom('1234321')); //true
 console.log(palindrom('level')); //true
 
-// new task 2
+// task new 2
 const min = function (a, b) {
   return a < b ? a : b; //return min value if true
 };
@@ -88,6 +89,7 @@ const max = function (a, y) {
 
 console.log(max(2, 30));
 console.log('----------');
+
 
 // new task 3
 const arr = [0, 15, 27, 30, 44, 51, 60, 77, 89, 90, 100];
