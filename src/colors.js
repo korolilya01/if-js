@@ -3,7 +3,6 @@ const text2 = document.getElementById('text2');
 const text3 = document.getElementById('text3');
 
 export const changeTextColor = () => {
-
   const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
   let i = 0;
   return function changeColor(event) {
@@ -14,7 +13,6 @@ export const changeTextColor = () => {
     }
   };
 };
-
 
 text1.addEventListener('click', changeTextColor());
 text2.addEventListener('click', changeTextColor());
