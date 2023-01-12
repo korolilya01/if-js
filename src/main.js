@@ -69,7 +69,7 @@ console.log('----------');
 
 const palindrom = function (word) {
   for (let i = 0; i < word.length; i++) {
-    return word[i] === word[word.length - 1] ? true : false; // reverse order in array
+    return word[i] === word[word.length - 1]; // reverse order in array
   }
 };
 console.log(palindrom('шалаш')); //true
@@ -110,38 +110,4 @@ function changeZero() {
 
 changeZero();
 console.log(arr);
-
-//less-4
-//task 1
-
-export function sum(a) {
-  return function sumDop(b) {
-    return a + b;
-  };
-}
-
-console.log(sum(5)(2));
-
-//task 2
-
-const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
-
-const text1 = document.getElementById('text1');
-const text2 = document.getElementById('text2');
-const text3 = document.getElementById('text3');
-
-const changeTextColor = () => {
-  let i = 0;
-  return function changeColor(event) {
-    event.target.style.color = colors[i];
-    i++;
-    if (i === colors.length) {
-      i = 0;
-    }
-  };
-};
-
-text1.addEventListener('click', changeTextColor());
-text2.addEventListener('click', changeTextColor());
-text3.addEventListener('click', changeTextColor());
-
+console.log('----------');

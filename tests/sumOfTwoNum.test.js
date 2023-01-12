@@ -1,8 +1,8 @@
-import { sum } from '../main.js';
+import { sum } from '../src/sumOfTwoNum.js';
 import expect from 'expect';
 
 // eslint-disable-next-line no-undef
-test('five plus two is seven', () => {
+test('sum of two numbers', () => {
   const a = 5;
   const b = 2;
   expect(sum(a)(b)).toBe(7);
