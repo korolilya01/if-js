@@ -1,4 +1,4 @@
-import { changeTextColor } from '../src/colors.js';
+import { changeTextColor } from '../src/taskColors.js';
 import expect from 'expect';
 
 // eslint-disable-next-line no-undef
