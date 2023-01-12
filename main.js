@@ -64,7 +64,6 @@ for (let i = 0; i < mas3.length; i++) {
 console.log(numEven);
 console.log('----------');
 
-
 // less-3
 // new task 1
 

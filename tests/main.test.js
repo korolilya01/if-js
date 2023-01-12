@@ -1,6 +1,5 @@
-import {sum} from "../main.js";
-import expect from "expect";
-
+import { sum } from '../main.js';
+import expect from 'expect';
 
 // eslint-disable-next-line no-undef
 test('five plus two is seven', () => {
